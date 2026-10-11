@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>RunQuest: Boricua Edition 🇵🇷</title>
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    #app-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    /* Top Bar Metrics */
+    #top-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: rgba(18, 18, 18, 0.95);
+      border-bottom: 2px solid #333;
+      padding: 10px 5px;
+      z-index: 1000;
+      text-align: center;
+      box-shadow: 0 4px 1
